@@ -16,7 +16,7 @@ analyzing the performance of systems and network protocols and finding ways to m
 
 Love collaborating on stuff - feel free to reach out or make PRs into any of my repos.
 
-<a href="https://www.jasonernst.com" title="Jason Ernst's website">www.jasonernst.com</a>) | [@compscidr](https://twitter.com/compscidr/) | [research papers](https://scholar.google.com/citations?user=SbUmSEAAAAAJ&hl=en)
+<a href="https://www.jasonernst.com" title="Jason Ernst's website">www.jasonernst.com</a> | [@compscidr](https://twitter.com/compscidr/) | [research papers](https://scholar.google.com/citations?user=SbUmSEAAAAAJ&hl=en)
 
 <a href="https://github.com/compscidr/compscidr" title="Jason Ernst's Top Programming Languages">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=compscidr&langs_count=3&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
