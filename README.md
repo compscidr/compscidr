@@ -10,7 +10,7 @@ live in.
 I've been learning a bit of [Go](https://github.com/compscidr/goblog) and Kotlin, and am interested in Rust. I've done a bunch of work in 
 [Java](https://github.com/compscidr/awm-lib), C/C++, Python, [PHP](https://github.com/compscidr/awm-lib-server), Javascript, and HTML. I'm really interested in network protocols, [operating systems](https://github.com/compscidr/pos), multi-process and multi-threaded 
 systems. I like visualizing sytems and the data that comes from them. I really like codebases that have CI/CD, testing, and coverage tools setup. 
-I like [infrastructure as code](https://github.com/compscidr/machine-configurations). I like exploring architectures, patterns and frameworks. I also like 
+I like [infrastructure as code](https://github.com/compscidr/iac). I like exploring architectures, patterns and frameworks. I also like 
 analyzing the performance of systems and network protocols and finding ways to make them faster or scale to larger sizes. I try to do things incrementally and make small bits of progress of code in bursts while I'm interested or have time.
 
 Love collaborating on stuff - feel free to reach out or make PRs into any of my repos.
