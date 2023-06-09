@@ -17,13 +17,7 @@ Love collaborating on stuff - feel free to reach out or make PRs into any of my 
 
 <a href="https://www.jasonernst.com" title="Jason Ernst's website">www.jasonernst.com</a> | [@compscidr](https://twitter.com/compscidr/) | [research papers](https://scholar.google.com/citations?user=SbUmSEAAAAAJ&hl=en)
 
-<a href="https://github.com/compscidr/compscidr" title="Jason Ernst's Top Programming Languages">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=compscidr&langs_count=10&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&layout=compact&exclude_repo=ns-3.18-icc-2014,ns-3.18-aina-2014,ns-3-9-ngwmn-2011,ns-3-9-ngwmn-2012" height="207px" />
-</a>
-
-<a href="https://github.com/compscidr/compscidr" title="Jason Ernst's GitHub Stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=compscidr&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Jason Ernst's GitHub Stats" />
-</a>
+<img src="https://github.com/compscidr/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" /> <img src="https://github.com/compscidr/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
 
 <!--
 **compscidr/compscidr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
