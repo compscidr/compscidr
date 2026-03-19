@@ -2,8 +2,10 @@
 CTO & Co-founder @ [Bump](https://bumpapp.xyz) | PhD, Wireless Mesh Networks
 
 Building mesh networking infrastructure for the developing world.
+
 Previously: RightMesh ($30M ICO), Rapid Robotics, Osaro, Redtree Robotics.
-EB-1A • $2.1M NSF Grant • CODE Hackathon Winner (Canada, 2014)
+
+EB-1A • [$2.13M MITACS Grant](https://betakit.com/u-of-guelph-left-investing-2-13-million-in-rightmesh-project-improving-northern-connectivity/) • [CODE](https://betakit.com/ontario-university-students-win-federal-governments-code-appathon/) Hackathon Winner (Canada, 2014)
 
 🔭 Currently: [Mesh networks](https://www.youtube.com/playlist?list=PL1HQc9Sqe59hFi9VfWAT68su4nLdH2DOj), Android instrumented testing ([SAIR](https://www.sair.run)), [GoBlog](https://www.goblog.live)
 
