@@ -3,7 +3,7 @@ CTO & Co-founder @ [Bump](https://bumpapp.xyz) | PhD, Wireless Mesh Networks
 
 Building mesh networking infrastructure for the developing world.
 
-Previously: RightMesh ($30M ICO), Rapid Robotics, Osaro, Redtree Robotics.
+Previously: RightMesh ([$30M ICO](https://www.newswire.ca/news-releases/rightmesh-completes-30m-token-generating-event-to-help-bridge-the-digital-divide-684184861.html)), Rapid Robotics, Osaro, [Redtree Robotics](https://montrealgazette.com/business/local-business/montreal-startup-ecosystem-fertile-playground-for-entrepreneurs).
 
 EB-1A • [$2.13M MITACS Grant](https://betakit.com/u-of-guelph-left-investing-2-13-million-in-rightmesh-project-improving-northern-connectivity/) • [CODE](https://betakit.com/ontario-university-students-win-federal-governments-code-appathon/) Hackathon Winner (Canada, 2014)
 
