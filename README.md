@@ -15,8 +15,8 @@ EB-1A • [$2.13M MITACS Grant](https://betakit.com/u-of-guelph-left-investing-2
 
 <a href="https://www.jasonernst.com" title="Jason Ernst's website">www.jasonernst.com</a> | [@compscidr](https://twitter.com/compscidr/) | [research papers](https://scholar.google.com/citations?user=SbUmSEAAAAAJ&hl=en)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=compscidr&theme=dark)](https://git.io/streak-stats)
-
-<img src="https://github.com/compscidr/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" /> <img src="https://github.com/compscidr/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<img height="180" 
+  src="https://github-readme-stats-navy-three-39.vercel.app/api/top-langs/?username=compscidr&theme=dark&layout=compact&langs_count=10&hide=html" /> <img height="180" 
+  src="https://github-readme-stats-navy-three-39.vercel.app/api/overview?username=compscidr&theme=dark" /> <img height="180" src="https://github-readme-stats-navy-three-39.vercel.app/api/streak?username=compscidr&theme=dark" />
 
 ![](https://hit.yhype.me/github/profile?user_id=23049896)
