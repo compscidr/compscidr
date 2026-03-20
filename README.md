@@ -9,7 +9,7 @@ EB-1A • [$2.13M MITACS Grant](https://betakit.com/u-of-guelph-left-investing-2
 
 🔭 Currently: [Mesh networks](https://www.youtube.com/playlist?list=PL1HQc9Sqe59hFi9VfWAT68su4nLdH2DOj), Android instrumented testing ([SAIR](https://github.com/compscidr/sair)), [GoBlog](https://github.com/goblogplatform/goblog)
 
-🌍 Deployed networks: Arctic Canada, Bangladesh, Brazil
+🌍 Deployed networks: [Canadian Arctic](https://www.bbc.co.uk/programmes/w3csvpcr), Bangladesh, Brazil
 
 💬 Ask me about: WiFi Direct, BLE mesh, Android networking, Kotlin, Go, [Robotics](https://www.youtube.com/watch?v=L40ilSO6tZU&list=PL1HQc9Sqe59hfpogQN5kNTqNuThDw2oZ_), [Infrastructure as Code](https://github.com/compscidr/iac)
 
