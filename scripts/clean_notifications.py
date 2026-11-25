@@ -4,7 +4,8 @@
 Lists every notification in the inbox (read and unread), looks up the state of
 each pull request or issue it points at, and marks the thread as done
 (DELETE /notifications/threads/{id}) when that PR or issue is merged or closed.
-Other notification types (releases, discussions, check suites, ...) are left alone.
+Release notifications are always marked done. Other notification types
+(discussions, check suites, ...) are left alone.
 
 Environment:
   GITHUB_TOKEN  classic personal access token with the `notifications` and
@@ -24,6 +25,7 @@ import urllib.request
 
 API = "https://api.github.com"
 HANDLED_TYPES = {"PullRequest", "Issue"}
+ALWAYS_DONE_TYPES = {"Release"}
 
 
 class GitHub:
@@ -81,21 +83,23 @@ def run(gh, dry_run):
         repo = (thread.get("repository") or {}).get("full_name", "?")
         label = f"[{kind}] {repo}: {subject.get('title', '')}"
 
-        if kind not in HANDLED_TYPES:
+        if kind in ALWAYS_DONE_TYPES:
+            finished = True
+        elif kind not in HANDLED_TYPES:
             counts["skipped"] += 1
             continue
-
-        try:
-            finished = subject_is_finished(gh, subject, cache)
-        except urllib.error.HTTPError as err:
-            # 404/403/410: deleted, transferred or no longer accessible.
-            print(f"  could not read {label}: HTTP {err.code}", file=sys.stderr)
-            counts["errors"] += 1
-            continue
-        except (urllib.error.URLError, TimeoutError) as err:
-            print(f"  could not read {label}: {err}", file=sys.stderr)
-            counts["errors"] += 1
-            continue
+        else:
+            try:
+                finished = subject_is_finished(gh, subject, cache)
+            except urllib.error.HTTPError as err:
+                # 404/403/410: deleted, transferred or no longer accessible.
+                print(f"  could not read {label}: HTTP {err.code}", file=sys.stderr)
+                counts["errors"] += 1
+                continue
+            except (urllib.error.URLError, TimeoutError) as err:
+                print(f"  could not read {label}: {err}", file=sys.stderr)
+                counts["errors"] += 1
+                continue
 
         if finished is None:
             counts["skipped"] += 1
