@@ -1,0 +1,34 @@
+name: Clean up notifications
+
+on:
+  schedule:
+    # Daily at 11:00 UTC (6 AM Toronto in winter, 7 AM in summer).
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only log what would be marked done"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: clean-notifications
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Mark merged and closed notifications as done
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOTIFICATIONS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/clean_notifications.py
